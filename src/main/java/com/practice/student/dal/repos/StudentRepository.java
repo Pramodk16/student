@@ -6,4 +6,5 @@ import com.practice.student.dal.entities.Student;
 
 public interface StudentRepository extends CrudRepository<Student, Long> {
 
+      //Write custom query a/c to your requirement
 }
