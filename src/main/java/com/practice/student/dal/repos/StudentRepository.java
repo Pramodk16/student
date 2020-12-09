@@ -4,7 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.practice.student.dal.entities.Student;
 
-public interface StudentRepository extends CrudRepository<Student, Long> {
+public interface StudentRepository extends CrudRepository<Student, Integer> {
 
       //Write custom query a/c to your requirement
 }
