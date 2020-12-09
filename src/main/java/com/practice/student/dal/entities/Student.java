@@ -15,12 +15,12 @@ import lombok.ToString;
 @Getter
 @ToString
 @Entity
-@Table(name = "studenttab")
+@Table
 public class Student {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Column(name = "sname")
+	//@Column(name = "sname")
 	private String name;
 	@Column(name = "scourse")
 	private String course;
